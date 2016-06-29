@@ -1,0 +1,540 @@
+/*
+ Theme Name:   Validation Institute
+ Description:  Durus Child Theme
+ Template:     Durus
+ Version:      1.0.0
+*/
+
+@import url("../Durus/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* =fix for mobile menu script tag inside html - fixes gap
+-------------------------------------------------------------- */
+.sticky-wrapper + p {
+    margin: 0;
+}
+
+/* =maroon bar at top of page
+-------------------------------------------------------------- */
+#top_bar {
+    height: 10px !important;
+}
+
+/* =compensate for long menu names in limited space
+-------------------------------------------------------------- */
+#main_navigation_container ul.main_menu > li {
+    padding: 0 15px;
+}
+#main_navigation_container .main_menu .sub-menu {
+    width: 250px;
+}
+
+/* =display none global
+-------------------------------------------------------------- */
+.post-standard > .post-meta-data,
+#comments {
+    display: none;
+}
+
+/* =button global
+-------------------------------------------------------------- */
+.button_alternatelight {
+    color: #f57e20 !important;
+    border-color: #ffeece !important;
+    background: #fff6e5 !important;
+}
+.button_alternatelight:hover {
+    border-color: #ffe4b2 !important;
+    background: #ffeece !important;
+}
+
+/* =tables global
+-------------------------------------------------------------- */
+th {
+    color: #ffffff;
+    background-color: #999999;
+}
+tr:nth-child(even) {
+    background: #f1eeea;
+}
+.tablecertifiedvalidated {
+    overflow-x: scroll;
+}
+
+/* =hr global
+-------------------------------------------------------------- */
+hr {
+    background-color: transparent !important;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    height: 3px !important;
+}
+
+/* =UL & OL global
+-------------------------------------------------------------- */
+ol.lower-alpha li{
+    list-style-type: lower-alpha;
+}
+
+/* =Social Icons with Count - Global
+-------------------------------------------------------------- */
+.post-share-menu .count{
+    display: none;
+}
+
+/* =header
+-------------------------------------------------------------- */
+.logo-container {
+    max-width: 260px;
+}
+#header #logo {
+    max-width: 100%;
+}
+
+/* =section global
+-------------------------------------------------------------- */
+section h3.title {
+    color: #ffffff;
+}
+
+/* =trademark
+-------------------------------------------------------------- */
+.trademark {
+    font-size: 0.55em;
+    vertical-align: super;
+}
+.hero h1 .trademark {
+    vertical-align: top;
+}
+
+/* =section Jefferson School
+-------------------------------------------------------------- */
+#jeffersonschoolquote {
+    position: relative;
+}
+#jeffersonschoolquote .quotemarks {
+    color: #999;
+    font-family: "Times New Roman", serif;
+    font-size: 3em;
+    float: left;
+    line-height: .7em;
+    padding-left: 3px;
+    padding-right: 8px;
+    padding-top: 4px;
+}
+#jeffersonschoolquote .quotemarks.right {
+    padding-left: 8px;
+    padding-right: 3px;
+    right: 0px;
+    position: absolute;
+    bottom: -0.35em;
+}
+#jeffersonschoolquote .quote {
+    text-align: center;
+    padding: 0 4% 0 3%;
+}
+#jeffersonschooltitle {
+    margin: 2.5em auto 0;
+    text-align: center;
+}
+#jeffersonschooltitle .citation {
+    line-height: 1.15;
+}
+#jeffersonschooltitle p span.title {
+    font-size: 12px;
+}
+
+/* =footer
+-------------------------------------------------------------- */
+body #footer {
+    padding-top: 40px !important;
+    padding-bottom: 0px !important;
+}
+#footer .container {
+    padding: 0;
+}
+body #footer .row-fluid {
+    margin: 0 0 !important;
+}
+body #footer .row-fluid [class*="span4"] {
+    padding: 0 47px !important;
+}
+body #footer a, body #footer a:visited {
+    color: #666666 !important;
+}
+body #footer a:hover {
+    color: #f57e20 !important;
+}
+
+/* =copyright
+-------------------------------------------------------------- */
+body #copyright {
+    padding-top: 22px !important;
+    padding-bottom: 0 !important;
+}
+#copyright .copyright-text, #copyright .textright {
+    width: 50%;
+}
+.footer-menu > li {
+    margin-bottom: 2em;
+}
+
+/* =blog
+-------------------------------------------------------------- */
+.single-post #titlebar .titlebar-content h1 a  {
+    color: #fff;
+}
+.category #breadcrumbs {
+    display: none;
+}
+
+/* =Get Started Page
+-------------------------------------------------------------- */
+.page-get-started ul {
+    margin-left: 40px;
+}
+.logo-grid-content {
+    padding: 0.5em;
+    margin-top: 2em;
+}
+
+.logo-grid-content figure {
+    float: left;
+    padding: 0.5em;
+    height: 65px;
+    width: 33%;
+    text-align: center;
+}
+
+.logo-grid-content a {
+    display: inline-block;
+    height: 47px; /* figure = 65px - 2*(0.5em) = 47px area */
+    max-width: 100%;
+}
+
+.logo-grid-content img {
+    max-height: 47px; /* figure = 65px - 2*(0.5em) = 47px area */
+}
+
+
+/* =contact 7 form
+-------------------------------------------------------------- */
+.wpcf7-submit {
+    background: #f57e20 !important;
+}
+.contact7formcontainer {
+    height: auto !important;
+}
+
+.section.double-section .contact7formcontainer .inner-content {
+    background: #f1eeea;
+    padding: 50px 50px 30px 50px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {  /*safari and chrome*/
+    select {
+        height:50px;
+        background:#fff;
+        -webkit-appearance:none;
+    } 
+}
+
+/* =FAQ
+-------------------------------------------------------------- */
+#faqrulessearchform {
+    max-width: 700px;
+    margin: 0 auto;
+}
+#faqrulessearchform #s {
+    display: inline-block;
+    width: 75%;
+}
+.faqsearchsection #qasearch {
+    display: inline-block;
+    width: 75%;
+}
+.faqrules .container .column-text {
+    float: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 50%;
+}
+
+.faqrules li,
+.faqrulesvalidation li,
+.faqdetail .sidenav li {
+    font-size: 110%;
+    list-style: none;
+    margin-bottom: 1em;
+    margin-left: 22px;
+    text-indent: -12px;
+}
+.faqrules li a i,
+.faqrulesvalidation li a i,
+.faqdetail .sidenav li a i,
+.faqrulesvalidation .toggle .toggle-title a i,
+.faqdetail .toggle .toggle-title a i
+{
+    margin-right: 12px;
+}
+.faqrules .column-text > p {
+    margin: 0;
+}
+.faqrules .qafp-faqs {
+    margin-bottom: 0;
+}
+.faqrulesvalidation .toggle .toggle-title,
+.faqdetail .toggle .toggle-title {
+    border: none;
+    box-shadow: none;
+    margin-left: 20px;
+}
+.faqrulesvalidation .toggle .toggle-title a,
+.faqdetail .toggle .toggle-title a {
+    color: #005b82;
+    font-size: 18px;
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    margin-left: 30px;
+    text-indent: -15px;
+}
+.faqrulesvalidation .toggle .toggle-title a:hover,
+.faqdetail .toggle .toggle-title a:hover {
+    color: #f57e20;
+}
+.faqrulesvalidation .toggle .toggle-title a span,
+.faqdetail .toggle .toggle-title a span {
+    display: none;
+}
+.faqrulesvalidation .toggle .toggle-inner,
+.faqdetail .toggle .toggle-inner {
+    margin-left: 34px;
+}
+
+.singlerule li {
+    font-size: inherit;
+    list-style: decimal outside none;
+    text-indent: 0;
+}
+.faqrulesbacklink {
+    font-size: 14px;
+}
+
+.rulesfaqbuttonsection .container {
+    padding: 0 50px;
+}
+.rulesfaqbuttonsection .container .headerspan {
+    font-size: 32px;
+    padding-left: 0;
+    padding-top: 14px;
+}
+.rulesfaqbuttonsection .container span a {
+    margin: 5px 20px;
+}
+
+.rulesfaqbuttons {
+    max-width: 350px;
+    overflow: hidden;
+}
+.rulesfaqbuttons a {
+    float: left;
+    margin-right: 0;
+    margin-left: 0;
+    min-width: 150px;
+}
+.rulesfaqbuttons a:first-child {
+    float:right;
+}
+
+/* =ORGANIZATION & ORGANIZATION LIGHTBOX
+-------------------------------------------------------------- */
+.org-vendor {
+    margin-bottom: 60px;
+}
+.org-vendor h2,
+.org-member-facing h2 {
+    border-bottom: 1px solid #444444;
+    font-size: 26px;
+}
+.org-vendors-matrix figure,
+.org-member-facing-matrix figure {
+    padding: 3em 3em 0;
+}
+.org-vendors-matrix figure img,
+.org-member-facing-matrix figure img {
+    max-height: 100px;
+}
+.single-organization .post-standard > h2 {
+    margin-bottom: 45px;
+}
+#colorbox .container {
+    padding: 40px 20px;
+}
+.single-organization .project-info,
+#colorbox .project-info {
+    margin-bottom: 0;
+}
+#colorbox .project-info > div:last-child {
+    padding-bottom: 0;
+}
+.single-organization .project-info > div strong,
+#colorbox .project-info > div strong {
+    display: block;
+    float: left;
+    min-width: 112px;
+}
+.single-organization .project-info > div span,
+#colorbox .project-info > div span {
+    display: block;
+    margin-left: 117px;
+}
+.single-organization .project-info > div a,
+#colorbox .project-info > div a {
+    color: #005b82;
+}
+.single-organization .project-info > div a:hover,
+#colorbox .project-info > div a:hover {
+    color: #f57e20;
+}
+.single-organization .certofvalidimg,
+#colorbox .certofvalidimg {
+    float: right;
+}
+.single-organization .small,
+#colorbox .small {
+    font-size: .85em;
+    margin-top: 3em;
+}
+
+/* =page specific
+-------------------------------------------------------------- */
+.page-instructions-certificate-validation-seal #titlebar .titlebar-content > h1 {
+    width: 100%;
+}
+
+.page-in-the-news .page-nav span.current {
+    background-color: #4d4d4d;
+    color: #fff;
+}
+
+/* =media queries
+-------------------------------------------------------------- */
+@media only screen and (min-width: 479px) {
+    .org-vendors-matrix figure,
+    .org-member-facing-matrix figure {
+        display: inline-block;
+        padding: 0 3em;
+        min-height: 100px;
+        width: 50%;
+    }
+    .org-vendors-matrix figure img,
+    .org-member-facing-matrix figure img {
+        vertical-align: middle;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .org-vendors-matrix figure,
+    .org-member-facing-matrix figure {
+        width: 33%;
+    }
+    .org-vendors-matrix figure img,
+    .org-member-facing-matrix figure img {
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    #home-section-one-p span,
+    h3.elevatestanding span {
+        display: inline-block;
+    }
+    .org-vendors-matrix figure,
+    .org-member-facing-matrix figure {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    #jeffersonschoolquote {
+        margin: 0 7%;
+    }
+    #jeffersonschooltitle {
+        width: 50%;
+        text-align: left;
+    }
+    #jeffersonschooltitle .imgcontainer {
+        float: left;
+        padding-top: 10px;
+        width: 50%;
+    }
+    #jeffersonschooltitle .citation {
+        margin-left: 310px;
+    }
+    .faqrulesvalidation .span8 .inner-content {
+        padding-right: 14%;
+    }
+    .org-vendors-matrix figure,
+    .org-member-facing-matrix figure {
+        width: 20%;
+    }
+    .single-organization .organization-validation-details {
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .rulesfaqbuttons {
+        text-align: center;
+    }
+    .rulesfaqbuttons a {
+        display: inline-block;
+        float: none;
+        min-width: 150px;
+    }
+    .rulesfaqbuttons a:first-child {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .aboutdoublesection.section.double-section .section-container > .inner-content,
+    .validationcertificationdoublesection.section.double-section .section-container > .inner-content {
+        max-width: inherit;
+    }
+    .validationcertification span {
+        display: inline-block;
+    }
+    .page-nav-prev, .page-nav-next {
+        display: none;
+    }
+    .sidenav {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .headerspan {
+        line-height: 1.2;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+
+@media only screen and (max-width: 1085px) {
+    .rulesfaqbuttonsection .container {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    #logo {
+        max-width: 260px;
+    }
+}
