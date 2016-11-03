@@ -23,25 +23,30 @@ nav {
 	text-decoration: none;
 	color:#928F8C;
 }
+
 .landingPage {
 	background-color: white;
 	text-align:center;
 }
 
-.landingPage > h1 {
-	/*width:500px;*/
-	background-color: white;
-	/*margin: 50px 300px;*/
-/*	height:200px;*/
-	padding:200px;
-
+.picLink {
+	height: 3em;
+	margin: 20px;
 }
 
-.banner {
-	border-style: inset;
-	background-color: rgb(29, 41, 43);
-	height: 25em;
+.landingPage > h1 {
+	background-color: white;
+	padding:200px;
+}
 
+.on {
+	border-style: inset;
+	background-color: rgb(47, 120, 90);
+	height: 25em;
+}
+
+.center {
+	padding-top: 5%;
 }
 
 .bodyText {
@@ -54,15 +59,13 @@ nav {
 	height: 500px;
 }
 
-.placeholder{
+.off{
 	width: 100%;
 	height: 500px;
-	background-color: rgb(29, 41, 43);
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
 	border-style: dotted 1px;
-
 }
 
 .front-text {
@@ -102,7 +105,6 @@ nav {
 .skills {
 	display: flex;
 	text-align: center;
-
 }
 
 .test-box2 h3 {
@@ -209,7 +211,6 @@ margin: 20px auto;
 	}
 .box .test-box2 h3{
 	opacity: 0;
-
 }
 
 .box .test-box2.change h3{
