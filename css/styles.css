@@ -29,6 +29,22 @@ nav {
 	text-align:center;
 }
 
+.bikePic {
+	/*transform: scale(.75);*/
+	/*margin:10%;*/
+	clear:both;
+	width: 60%;
+	float: right;
+	overflow: hidden;
+	
+}
+
+.bikePicContainer {
+	width: 100%;
+}
+.project_description {
+	margin:10%;
+}
 .picLink {
 	height: 3em;
 	margin: 20px;
